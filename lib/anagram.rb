@@ -15,6 +15,8 @@ class Anagram
       if a.sort == b.sort
         return_array << a.join
     end
+    
+    return_array
   end
   
 end
